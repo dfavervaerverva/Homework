@@ -1,0 +1,1659 @@
+{
+  "id": "883c4498-657e-429d-8881-b73d151bd64e",
+  "version": "2.0",
+  "name": "Overclockers",
+  "url": "https://www.overclockers.ua/",
+  "tests": [{
+    "id": "e7ad0cbd-6ad5-42e6-850d-f05912b6c665",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "7d0592eb-4071-4b46-813a-79222165b12a",
+    "name": "search",
+    "commands": [{
+      "id": "60b28679-1731-4170-9a3b-c10b3f20599f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edb1c5bb-fd11-48b4-a164-bedbf6ccac52",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "name=q",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "830d088c-3818-4b55-a379-8e2e7ea7e889",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=q",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17963578-bef2-4131-b648-be64555113b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2f3d9fa-03ce-49f6-a8a9-f0bccf8f40ba",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='sidebar_search']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "rtx 3080"
+    }, {
+      "id": "2d23e9ab-fb46-43eb-86ca-be210f7a3246",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='sidebar_search']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e203cbc5-f5f9-4211-a381-23fd588698be",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Пошук по сайту / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "673e0ac0-e250-4aab-9a2d-7aa511f98073",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "name=q",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "fc4fe549-b339-4f24-9dfe-299517d96cee",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=q",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc73a70b-d2cc-4852-854f-908c47a7ac20",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form[@action='/ua/search/']", "xpath:attributes"],
+        ["xpath=//div[@id='sidebar_search']/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "030219ec-3f30-40ab-a56b-825b19a4f9fc",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='sidebar_search']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ryzen 7"
+    }, {
+      "id": "4cb6c58a-96d6-46e7-b029-8a86d36c82d9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='sidebar_search']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "9a426020-cbc2-4aa1-a03e-d8bc0ab4bc39",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Пошук по сайту / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ea23286-e224-4b6d-9e1e-892508d7e2da",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "name=q",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "5d228149-b798-4cd8-947e-854befd7e3bf",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=q",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63063e45-bce8-479d-af7f-8a3080e6cd6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "801215e0-e8a2-43db-a205-af4178ebaec7",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='sidebar_search']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kingston fury"
+    }, {
+      "id": "6af43f7e-a704-469c-bfeb-3989de081496",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='sidebar_search']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c6a3dd24-b6e2-4014-8178-19aea6d9e275",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Пошук по сайту / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ae516407-f14d-49be-9573-ee7e4c5d16b2",
+    "name": "article",
+    "commands": [{
+      "id": "8d565b4f-ff37-4ca8-831f-27a4e3102e0a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04ffd0e2-ac9b-4e36-8dd2-72c55b3e4357",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.overclockers.ua/ua/news/games/2023-11-21/133673/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35232ced-6462-482d-b56d-852ab3e3779d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='post']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Cyberpunk 2077 незабаром отримає версію Ultimate Edition')]", "xpath:innerText"]
+      ],
+      "value": "Cyberpunk 2077 незабаром отримає версію Ultimate Edition"
+    }, {
+      "id": "3aadbbb2-9cce-4f59-b232-1f6977598b42",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Cyberpunk 2077 незабаром отримає версію Ultimate Edition / Новини / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d3430d0c-5db4-422c-bedf-7ab5b491e3c7",
+    "name": "header",
+    "commands": [{
+      "id": "9b8564ad-f5eb-41bf-8d39-81fb430ac442",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f49e50b5-acdb-484d-8b6e-fb75ce223b54",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Новини",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "070f5bc5-db74-463d-931f-b0e463e6a5ce",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Новини",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a65d8508-4622-4054-9f3c-0335e439aab3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Новини",
+      "targets": [
+        ["linkText=Новини", "linkText"],
+        ["css=.col1 > .pin:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Новини')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/news/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Новини')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d927447c-63e0-48ee-986e-49d15096f46f",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Останні новини / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a67cee3-54fa-403b-b6aa-7ee72d5e72fa",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Специфікації",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "21c93918-1920-4b0f-9eaf-47e4ad71e248",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Специфікації",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c16d2cd9-fbf5-475d-8557-928759df2ef3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Специфікації",
+      "targets": [
+        ["linkText=Специфікації", "linkText"],
+        ["css=.col1 > .pin:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Специфікації')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/specs/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Специфікації')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a3142b9-af60-4173-a403-d0b69be51684",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Специфікації / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c1f2a41-96d1-487d-98af-4aeb3ae2f57e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Огляди",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "80bde308-2c3a-48e6-a2d5-9aa3ec7a509f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Огляди",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcc80a7d-ba39-40a9-a19d-404f21d6a7d6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Огляди",
+      "targets": [
+        ["linkText=Огляди", "linkText"],
+        ["css=.col2 > .pin > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Огляди')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/reviews/')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Огляди')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef0e1638-556b-4bfc-b862-b82fc6004c70",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Всі огляди і статті / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c537e57-cfd0-4844-adf5-c32bdb6b4498",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Процесори",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "a05e3795-cc42-4bcc-95d2-ebea69a55c89",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Процесори",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a343cb6d-0e4c-4017-99d5-31b87a08cdb6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Процесори",
+      "targets": [
+        ["linkText=Процесори", "linkText"],
+        ["css=.col2 > .sub:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Процесори')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[2]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/cpu/')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Процесори')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4909ab80-b5e5-4f10-a6c8-736df13589b6",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Процесори / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33b773bf-f947-4582-a510-81f9e40d0404",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Материнські плати",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "833c07d7-8d7b-40eb-b4f3-e8d36a386751",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Материнські плати",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1aef3cea-be4e-46a4-8816-f2334da821f6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Материнські плати",
+      "targets": [
+        ["linkText=Материнські плати", "linkText"],
+        ["css=.col2 > .sub:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Материнські плати')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[2]/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/motherboard/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Материнські плати')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fdf7b4b-6f16-47b8-a4d1-bee9d29ca5ba",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Материнські плати / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbe6d966-adae-4545-97bc-ab49eba6c750",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Пам'ять",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "7cb80016-602a-4698-8f14-a14412a09a9b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Пам'ять",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fe419f4-6a52-438a-8fdb-4ca9d2902b84",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Пам'ять",
+      "targets": [
+        ["linkText=Пам'ять", "linkText"],
+        ["css=.col2 > .sub:nth-child(4) > a", "css:finder"],
+        ["xpath=//div[@id='mainmenu']/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/memory/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08ff7a44-221d-4915-a4d6-24fe42b36f85",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Пам'ять / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21a8810f-4d23-488d-b1dc-8d239e2afdec",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Відеокарти",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "60d21cfd-3d2d-4d6a-95ff-9221c52be13d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Відеокарти",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0747e77c-1c07-4a49-baf4-7c6203415136",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Відеокарти",
+      "targets": [
+        ["linkText=Відеокарти", "linkText"],
+        ["css=.col3 > .sub:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Відеокарти')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[3]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/video/')]", "xpath:href"],
+        ["xpath=//ul[3]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Відеокарти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ac43266-fab8-4728-8ad1-dda8c65c3780",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Відеокарти / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c81bd32e-1ef3-4a2e-9e8e-49a9dd977842",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Системи охолодження",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "13aeaa62-9d69-47bd-b52b-f125fed1611b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Системи охолодження",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05881f66-473e-4f51-b236-249b73faf69f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Системи охолодження",
+      "targets": [
+        ["linkText=Системи охолодження", "linkText"],
+        ["css=.col3 > .sub:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Системи охолодження')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[3]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/cooler/')]", "xpath:href"],
+        ["xpath=//ul[3]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Системи охолодження')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d89a06e-98ee-4cdb-a096-15bb758afe2d",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Системи охолодження / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8045cf31-0a1a-4e65-8de8-f31c0a843d3d",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Корпуси",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "477ca41b-7062-4524-b117-66686dc8f2e0",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Корпуси",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "479e98be-afe6-4145-b98f-b74a42f995be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Корпуси",
+      "targets": [
+        ["linkText=Корпуси", "linkText"],
+        ["css=.col3 > .sub:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Корпуси')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[3]/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/case/')]", "xpath:href"],
+        ["xpath=//ul[3]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Корпуси')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0abd70f-8e44-44c6-8145-9fba410b67c8",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Корпуси / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43e03c7f-ebb9-4966-b071-a892a849be07",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Блоки живлення",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "34db57a7-bcfe-44d6-b237-9ac555cdc285",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Блоки живлення",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b970967-52fa-4d72-878f-60d5f29f183c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Блоки живлення",
+      "targets": [
+        ["linkText=Блоки живлення", "linkText"],
+        ["css=.col3 > .sub:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Блоки живлення')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[3]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/power/')]", "xpath:href"],
+        ["xpath=//ul[3]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Блоки живлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af7a24c5-da03-463b-a2df-eac7e8c330a4",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Джерела живлення / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21209290-433f-4c51-b36f-9ca8e22c2cc6",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Накопичувачі",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "4e1287d9-1ac4-4875-9f5d-04c048b66f6c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Накопичувачі",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8673f740-4fe8-4649-bb09-fee72d6cb581",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Накопичувачі",
+      "targets": [
+        ["linkText=Накопичувачі", "linkText"],
+        ["css=.col4 > .sub:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Накопичувачі')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[4]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/storage/')]", "xpath:href"],
+        ["xpath=//ul[4]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Накопичувачі')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27551e09-110e-4527-8312-8a7874dde5b2",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Накопичувачі / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3551af6-8881-42d0-8dab-ae9de524c056",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Периферія",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "7da4871a-cb40-4ea9-9a65-a41885f97861",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Периферія",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "362193ab-13bd-4285-a0d5-17e60921e4ec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Периферія",
+      "targets": [
+        ["linkText=Периферія", "linkText"],
+        ["css=.col4 > .sub:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Периферія')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[4]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/peripheral/')]", "xpath:href"],
+        ["xpath=//ul[4]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Периферія')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3ae99fc-63dd-4f88-94e8-a205619b0ebd",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Периферія / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7ca136f-980e-4d20-9310-c454e0d4da48",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Системи",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "ac1b17e7-33b5-4b0b-b35d-83bfb6e739e6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Системи",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7805ddfa-ecaf-49e2-b777-30a3b2c7a7b2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Системи",
+      "targets": [
+        ["linkText=Системи", "linkText"],
+        ["css=.col4 > .sub:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Системи')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[4]/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/system/')]", "xpath:href"],
+        ["xpath=//ul[4]/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dd04670-ca14-4567-8f04-84e5acf98dab",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Системи / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77e2bf0e-f7d1-4902-9fe2-b10aff76a6ae",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Ноутбуки",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "50aed378-339e-448f-8698-018de32cbb7a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Ноутбуки",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ead15991-d5b3-4ea4-a2f5-d7b68f46ad80",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки",
+      "targets": [
+        ["linkText=Ноутбуки", "linkText"],
+        ["css=.col4 > .sub:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Ноутбуки')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[4]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/notebook/')]", "xpath:href"],
+        ["xpath=//ul[4]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ноутбуки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ad92807-c91d-4484-a431-88c4038fdf33",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Ноутбуки / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0434d14b-d982-4b49-8f4c-3be23f84ff16",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Ігри",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "d79db23b-a317-47e7-ba50-bbcd82dc9876",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Ігри",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c90dd0f-7043-4625-bcd4-805c1e3afb11",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ігри",
+      "targets": [
+        ["linkText=Ігри", "linkText"],
+        ["css=.col5 > .sub:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Ігри')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[5]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/games/')]", "xpath:href"],
+        ["xpath=//ul[5]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ігри')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3f26cae-60e7-457a-bccc-98324e2d6a01",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Ігри / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d252ff32-da19-4561-a8c8-b15c147058e5",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Аналітика",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "f5b4e845-5b28-41c4-bf2a-26ae00f7384b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Аналітика",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4301e780-f00c-4eed-b808-b059a1d9c88b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Аналітика",
+      "targets": [
+        ["linkText=Аналітика", "linkText"],
+        ["css=.col5 > .sub:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Аналітика')]", "xpath:link"],
+        ["xpath=//div[@id='mainmenu']/ul[5]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/editorial/')]", "xpath:href"],
+        ["xpath=//ul[5]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Аналітика')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c40885d-3c21-47e3-b3a5-e2be2d29a2c2",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Аналітика / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "53919cbd-d6cd-46b6-b315-6b2df1b55a95",
+    "name": "footer",
+    "commands": [{
+      "id": "22bbbd78-3810-47a5-b8fd-071ad6c52a62",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02b75327-02af-44d8-bed6-f9c651140990",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Головна",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "d1bd39a6-5cf8-4835-9fa3-c7b370bfb49c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Головна",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "331a0c15-4b33-4a01-86ce-41f7768c75b7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Головна",
+      "targets": [
+        ["linkText=Головна", "linkText"],
+        ["css=#footer > ul:nth-child(1) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Головна')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/')])[144]", "xpath:href"],
+        ["xpath=//body/div/div[10]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Головна')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f899ff18-8e07-441c-8cc8-68ca7d19e574",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Overclockers.ua - Оверклокінг, огляди і тести комп'ютерних комплектуючих та ігор",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "977f9490-1755-47eb-bc0f-bd23e942954e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#footer > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "923c4ac7-ca5f-4aab-9bd3-6a3302c90636",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#footer > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35ff9ec1-35a9-41ca-94a3-3b3d38183179",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)",
+      "targets": [
+        ["css=#footer > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Новини')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/news/')])[51]", "xpath:href"],
+        ["xpath=//div[10]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f610f2d8-82fd-4527-b253-d5ef05276950",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Останні новини / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18d223a4-c80a-4b5a-ab7a-3f770cbff85a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=стрічка",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "396e8c61-b13a-4fce-8ded-10e6a9ef5b6c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=стрічка",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aed354ee-47f0-4018-84f8-241539e66440",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=стрічка",
+      "targets": [
+        ["linkText=стрічка", "linkText"],
+        ["css=li:nth-child(2) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'стрічка')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul/li[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/newsline/')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'стрічка')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f9dd1a8-6d71-4394-944c-823b2dae088a",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Останні новини / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d9cbd6b-2d9b-4668-9814-8dbd20d4df6d",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#footer > ul:nth-child(1) > li:nth-child(3) > a",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "47c7d426-3860-4017-adbc-4553e96c3bf7",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#footer > ul:nth-child(1) > li:nth-child(3) > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba34eaf2-8bd2-4d5c-be16-f0b1b2f17a70",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(1) > li:nth-child(3) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(1) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Специфікації')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/specs/')])[3]", "xpath:href"],
+        ["xpath=//div[10]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecee88fa-5c8c-4027-a960-def0def6ba9f",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Специфікації / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07a2288d-343e-4d0d-8927-5864247ae192",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#footer > ul:nth-child(2) > li:nth-child(1) > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "473af293-cd24-4a2a-828c-02bc213aa2e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(2) > li:nth-child(1) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(2) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Процесори')])[4]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/cpu/')])[13]", "xpath:href"],
+        ["xpath=//div[10]/ul[2]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ded3e19f-7ce3-4e2d-bdf4-d1b637133231",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Процесори / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57153abb-f7e7-4c17-ae82-8ef57dab4128",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#footer > ul:nth-child(2) > li:nth-child(2) > a",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "b4f2bdb0-456b-4f04-ba66-782424a35df2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#footer > ul:nth-child(2) > li:nth-child(2) > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ab41f7e-02d5-4e3b-b1ad-eb219ec66df6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(2) > li:nth-child(2) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(2) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Материнські плати')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[2]/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/motherboard/')])[3]", "xpath:href"],
+        ["xpath=//div[10]/ul[2]/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a941c6b4-f07e-421d-acec-5d2212261326",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Материнські плати / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9de666ef-7411-4c06-ab3f-1f129985b203",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#footer > ul:nth-child(2) > li:nth-child(3) > a",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "c8b1e1e8-e545-471c-9331-c3c0464487a8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#footer > ul:nth-child(2) > li:nth-child(3) > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97126788-0c5d-4ead-8367-1760b78e8122",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(2) > li:nth-child(3) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(2) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Відеокарти')])[7]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[2]/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/video/')])[18]", "xpath:href"],
+        ["xpath=//div[10]/ul[2]/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fecbe10-fe02-49d6-997c-52de283f6021",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Відеокарти / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2225babf-7471-408c-ab3e-ff046b199bc7",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#footer > ul:nth-child(2) > li:nth-child(4) > a",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "a8f915f1-309b-47d7-9c65-aa080122e7ec",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#footer > ul:nth-child(2) > li:nth-child(4) > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5dc50c98-8602-4980-affc-17ef6b7a4204",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(2) > li:nth-child(4) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(2) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//div[@id='footer']/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/memory/')])[7]", "xpath:href"],
+        ["xpath=//div[10]/ul[2]/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5baab4db-400b-497c-9e2b-cf28bdce1318",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Пам'ять / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7923e04c-8bbb-4558-9d87-9b2c0dba82d3",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#footer > ul:nth-child(3) > li:nth-child(1) > a",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "fa0746e8-a7dd-47ea-9245-bf79d8018504",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#footer > ul:nth-child(3) > li:nth-child(1) > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6c895e4-f754-4133-87a9-daf90c023b75",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(3) > li:nth-child(1) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(3) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Системи охолодження')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[3]/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/cooler/')])[9]", "xpath:href"],
+        ["xpath=//div[10]/ul[3]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee04e18d-eb6d-4cde-8184-f23149b62138",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Системи охолодження / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "308b7b46-b369-47ca-a37d-3901e3ebc4b6",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#footer > ul:nth-child(3) > li:nth-child(2) > a",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "7d80ac6f-0e36-43a2-a685-3e238b424a1d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#footer > ul:nth-child(3) > li:nth-child(2) > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e94a4c7-43db-4568-bc80-9ecbf82285d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(3) > li:nth-child(2) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(3) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Корпуси')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[3]/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/case/')])[3]", "xpath:href"],
+        ["xpath=//div[10]/ul[3]/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57871149-397f-413c-9c3f-b10b7b11003d",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Корпуси / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91db65ea-18fc-4f05-aaef-bcec8bab914f",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#footer > ul:nth-child(3) > li:nth-child(3) > a",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "13497095-d6a0-4b81-a855-ce8a92b44b79",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#footer > ul:nth-child(3) > li:nth-child(3) > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43780ede-ecb9-45fd-97d3-99fe5d4ca54e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(3) > li:nth-child(3) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(3) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Блоки живлення')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[3]/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/power/')])[9]", "xpath:href"],
+        ["xpath=//div[10]/ul[3]/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6558ba8f-02c7-4fb2-bf1b-1320589aef04",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Джерела живлення / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1250bcfd-1284-4456-b01b-8b1e1aa2a58a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#footer > ul:nth-child(3) > li:nth-child(4) > a",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "19640853-e3f1-466d-9808-c4b5c61e7373",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#footer > ul:nth-child(3) > li:nth-child(4) > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f03fef3-12d8-4cea-8336-bdb926c905f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(3) > li:nth-child(4) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(3) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Периферія')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[3]/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/peripheral/')])[7]", "xpath:href"],
+        ["xpath=//div[10]/ul[3]/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5226e23-8202-4ba2-8c96-73a59ed0ad87",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Периферія / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f8022e8-a3e5-4333-9aa7-b70539f899a5",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#footer > ul:nth-child(4) > li:nth-child(1) > a",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "6d658f12-0a55-41ac-9670-d865df82a347",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#footer > ul:nth-child(4) > li:nth-child(1) > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4094e50c-a104-42be-bad3-4044beb3508e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(4) > li:nth-child(1) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(4) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Накопичувачі')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[4]/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/storage/')])[7]", "xpath:href"],
+        ["xpath=//div[10]/ul[4]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdf07816-7d14-443f-ace8-bba8628a6ce8",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Накопичувачі / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e709568-c5c0-4cab-b869-7493fbaff6d2",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#footer > ul:nth-child(4) > li:nth-child(2) > a",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "7589c3c9-e0cc-4431-90f3-eed00034eefb",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#footer > ul:nth-child(4) > li:nth-child(2) > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b0c8f3b-ca43-41db-9792-a72729086321",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(4) > li:nth-child(2) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(4) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ноутбуки')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[4]/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/notebook/')])[3]", "xpath:href"],
+        ["xpath=//div[10]/ul[4]/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7da702f0-e1fb-401e-b039-5c734afea5ba",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Ноутбуки / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8998199c-fedf-424d-9f5a-c2bae0d8be1d",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#footer > ul:nth-child(4) > li:nth-child(3) > a",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "1921269e-7ff3-4cab-8638-d06b6f006b0e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#footer > ul:nth-child(4) > li:nth-child(3) > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99fc06b5-e96a-478d-9d6e-83e37c532c1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(4) > li:nth-child(3) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(4) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Системи')])[5]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[4]/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/system/')])[2]", "xpath:href"],
+        ["xpath=//div[10]/ul[4]/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82cbb3ce-4c68-4f09-8842-9488efd5cad4",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Системи / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3727083-98ae-40dc-8d4a-f1d66d6ee797",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#footer > ul:nth-child(4) > li:nth-child(4) > a",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "63339fe1-052c-4738-89d3-c8d72edb8393",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#footer > ul:nth-child(4) > li:nth-child(4) > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31e2c9e9-f618-4d21-94d2-73a67f9d553b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer > ul:nth-child(4) > li:nth-child(4) > a",
+      "targets": [
+        ["css=#footer > ul:nth-child(4) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ігри')])[3]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[4]/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/games/')])[3]", "xpath:href"],
+        ["xpath=//div[10]/ul[4]/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1488d9e0-bfa8-4862-932a-6e9f6450ad93",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Ігри / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c3192ac-1ebc-4619-8920-2d350bcb1d88",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Мережі",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "f7c61c6b-4536-40d0-8df5-cc764917676d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Мережі",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3ec6fe4-b412-4d3b-b6b5-4fdf788e3e29",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Мережі",
+      "targets": [
+        ["linkText=Мережі", "linkText"],
+        ["css=#footer > ul:nth-child(5) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Мережі')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[5]/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/net/')])[5]", "xpath:href"],
+        ["xpath=//div[10]/ul[5]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Мережі')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a27d58c-c6ec-4da5-aa60-ffb1843bc615",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Мережі / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de43bfe4-68ef-4d4a-b150-684b12c6a1fd",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Софт",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "3ec93d36-3042-4a60-9d2a-6b327162e972",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Софт",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a23db26-c28a-4ccf-a5e3-fbab5032e80f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Софт",
+      "targets": [
+        ["linkText=Софт", "linkText"],
+        ["css=#footer > ul:nth-child(5) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Софт')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[5]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/software/')]", "xpath:href"],
+        ["xpath=//div[10]/ul[5]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Софт')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c282b71-129f-473f-860e-a1024aa085b7",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Програмне забезпечення / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a79e4eb-80ee-4957-b7a1-79bc3efa28ec",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Моддінг",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "3285400d-8af3-432d-971f-502a738a97e2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Моддінг",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb6fe80e-155a-4c65-99a0-893a492e7b0e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Моддінг",
+      "targets": [
+        ["linkText=Моддінг", "linkText"],
+        ["css=#footer > ul:nth-child(5) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Моддінг')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[5]/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/modding/')]", "xpath:href"],
+        ["xpath=//div[10]/ul[5]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Моддінг')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae6ef5fe-44c4-4de8-bd37-7e0e23acfd07",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Моддінг / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bcd5e1f-edb1-4fd0-adfa-d1fa87127052",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Мобіліті",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "35cca60c-e0a0-4dc3-86f6-90813b6f2ccc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Мобіліті",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b205e108-a5c5-4f9f-baa5-933208d9cb53",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Мобіліті",
+      "targets": [
+        ["linkText=Мобіліті", "linkText"],
+        ["css=ul:nth-child(5) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Мобіліті')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[5]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/mobility/')]", "xpath:href"],
+        ["xpath=//ul[5]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Мобіліті')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a948fd56-836a-4808-92f2-cc26f160a6d7",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Мобіліті / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6ba9f13-9561-46f4-a807-039095775737",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Про проєкт",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "29fb0770-104b-4124-87f4-66ccfb8b7f3a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Про проєкт",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9f5969c-3e29-4065-b446-083ed1c15b26",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Про проєкт",
+      "targets": [
+        ["linkText=Про проєкт", "linkText"],
+        ["css=ul:nth-child(6) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Про проєкт')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[6]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/about/')]", "xpath:href"],
+        ["xpath=//ul[6]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Про проєкт')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "84d8f60e-2227-40aa-a216-5f710906f679",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Про проєкт / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98af543d-1568-4fe4-87ab-e581e9b7e05e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Реклама",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "703c1f75-99b5-4b4b-9f9a-7ed1c45478eb",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Реклама",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91a59ca4-d993-41ac-841d-a70468634e03",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Реклама",
+      "targets": [
+        ["linkText=Реклама", "linkText"],
+        ["css=ul:nth-child(6) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Реклама')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[6]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/advertising/')]", "xpath:href"],
+        ["xpath=//ul[6]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Реклама')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aed40969-63fa-442d-b228-9534b19ba9fe",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Розміщення реклами / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c63cd035-6b92-440e-8bb9-63cc8590054d",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Статистика",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "06c9a213-2349-43d9-963e-2ff161a0224a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Статистика",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c30e61a5-d9fd-481c-9449-023cc12ccff4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Статистика",
+      "targets": [
+        ["linkText=Статистика", "linkText"],
+        ["css=ul:nth-child(6) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Статистика')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[6]/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/stats/')]", "xpath:href"],
+        ["xpath=//ul[6]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Статистика')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44b8e021-4c3c-49a4-81fb-5866641c843b",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Статистика відвідуваності / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83fdda3d-def5-46bf-aa92-7132b9709a1c",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Вакансії",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "c4867e9d-7aff-4a69-a467-e41957a6cd3d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Вакансії",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b7fa716-82b6-4f48-9f37-698a1a61634a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Вакансії",
+      "targets": [
+        ["linkText=Вакансії", "linkText"],
+        ["css=ul:nth-child(6) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Вакансії')]", "xpath:link"],
+        ["xpath=//div[@id='footer']/ul[6]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/hr/')]", "xpath:href"],
+        ["xpath=//ul[6]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Вакансії')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57b90bc7-7ad2-44b3-b5f5-39b810080ca6",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Вакансії / Overclockers.ua",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "04e26441-ffbf-4b60-9d06-01876d243641",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e7ad0cbd-6ad5-42e6-850d-f05912b6c665"]
+  }],
+  "urls": ["https://www.overclockers.ua/"],
+  "plugins": []
+}

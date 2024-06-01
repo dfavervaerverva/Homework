@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S9</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Функционал &quot;Спонсор проекта&quot;</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C80</id>
+				<title>Перевірка розміру поля наведення функціоналу &quot;Спонсор проекта&quot; (коли курсор змінюється зі звичайного на клікабельний)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити сайт http://button.dekel.ru/
+2) Навести курсор на функціонал &quot;Спонсор проекта&quot;</steps>
+										<expected>Очікуваний результат: поле наведення має відповідати замовленому</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C81</id>
+				<title>Перевірка шрифту напису &quot;Спонсор проекта&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити сайт http://button.dekel.ru/
+2) Подивитись шрифт напису &quot;Спонсор проекта&quot;</steps>
+										<expected>Очікуваний результат: шрифт напису &quot;Спонсор проекта&quot; має відповідати замовленому</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C82</id>
+				<title>Перевірка кольору емблеми під написом &quot;Спонсор проекта&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити сайт http://button.dekel.ru/
+2) Перевірити колір емблеми під написом &quot;Спонсор проекта&quot;</steps>
+										<expected>Очікуваний результат: Колір емблеми під написом &quot;Спонсор проекта&quot; має відповідати замовленому</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C83</id>
+				<title>Перевірка клікабельності функціоналу &quot;Спонсор проекта&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити сайт http://button.dekel.ru/
+2) Натиснути на емблему під написом &quot;Спонсор проекта&quot;</steps>
+										<expected>Очікуваний результат: Перехід на сайт через посилання під написом &quot;Спонсор проекта&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C84</id>
+				<title>Перевірка можливості перейти на посилання, не натискаючи емблему під написом &quot;Спонсор проекта&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити сайт http://button.dekel.ru/
+2) Затиснути лівою кнопкою миші на емблемі під написом &quot;Спонсор проекта&quot;
+3) Довести посилання, яке з&apos;явилось, до адресної строки браузера</steps>
+										<expected>Очікуваний результат: Перехід на сайт через посилання під написом &quot;Спонсор проекта&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C85</id>
+				<title>Перевірка властивостей функціоналу &quot;Спонсор проекта&quot; через перегляд коду</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити сайт http://button.dekel.ru/
+2) Натиснути правою кнопкою на емблемі під написом &quot;Спонсор проекта&quot;
+3) У контекстному меню обрати функцію &quot;Перевірити&quot;</steps>
+										<expected>Очікуваний результат: Користувач бачить код, в якому є всі властивості функціоналу &quot;Спонсор проекта&quot;</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Кнопка &quot;Сделать всё хорошо&quot;</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C86</id>
+				<title>Проверить расположение кнопки &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Проверить расположение кнопки &quot;Сделать всё хорошо&quot;</steps>
+										<expected>Кнопка расположена по центру страницы</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C87</id>
+				<title>Проверить фон кнопки &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Проверить фон кнопки &quot;Сделать всё хорошо&quot;</steps>
+										<expected>Фон кнопки белый</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C88</id>
+				<title>Проверить наличие тени от кнопки &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Проверить, чтобы тень от кнопки была под ней</steps>
+										<expected>Под кнопкой есть тень</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C89</id>
+				<title>Проверить цвет тени от кнопки &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Проверить, цвет тени от кнопки</steps>
+										<expected>Цвет тени от кнопки серый</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C90</id>
+				<title>Проверить цвет контура кнопки &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Проверить цвет контура кнопки &quot;Сделать всё хорошо&quot;</steps>
+										<expected>Контур кнопки &quot;Сделать всё хорошо&quot; чёрный</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C91</id>
+				<title>Проверить толщину контура кнопки &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Проверить толщину контура кнопки &quot;Сделать всё хорошо&quot;</steps>
+										<expected>Толщина контура кнопки &quot;Сделать всё хорошо&quot; 1 мм</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C92</id>
+				<title>Проверить форму кнопки &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Проверить форму кнопки &quot;Сделать всё хорошо&quot;</steps>
+										<expected>Кнопка &quot;Сделать всё хорошо&quot; имеет прямоугольную форму</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C93</id>
+				<title>Проверить цвет кнопки &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Проверить цвет кнопки &quot;Сделать всё хорошо&quot;</steps>
+										<expected>Кнопка &quot;Сделать всё хорошо&quot; белого цвета</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C94</id>
+				<title>Проверить наличие тени на боковых частях кнопки &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Проверить наличие тени на боковых частях кнопки &quot;Сделать всё хорошо&quot;</steps>
+										<expected>На боковых частях кнопки &quot;Сделать всё хорошо&quot; есть тень</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C95</id>
+				<title>Проверить цвет тени на боковых частях кнопки &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Проверить цвет тени на боковых частях кнопки &quot;Сделать всё хорошо&quot;</steps>
+										<expected>На боковых частях кнопки &quot;Сделать всё хорошо&quot; тень серого цвета</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C96</id>
+				<title>Проверить наличие надписи &quot;Сделать всё хорошо&quot; на поверхности кнопки &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Проверить наличие надписи &quot;Сделать всё хорошо&quot; на поверхности кнопки &quot;Сделать всё хорошо&quot;</steps>
+										<expected>На поверхности кнопки &quot;Сделать всё хорошо&quot; есть надпись &quot;Сделать всё хорошо&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C97</id>
+				<title>Проверить расположение надписи &quot;Сделать всё хорошо&quot; на поверхности кнопки &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Проверить расположение надписи &quot;Сделать всё хорошо&quot; на поверхности кнопки &quot;Сделать всё хорошо&quot;</steps>
+										<expected>На поверхности кнопки &quot;Сделать всё хорошо&quot; надпись &quot;Сделать всё хорошо&quot; расположена горизонтально по центру</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C98</id>
+				<title>Проверить цвет надписи &quot;Сделать всё хорошо&quot; на поверхности кнопки &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Проверить цвет надписи &quot;Сделать всё хорошо&quot; на поверхности кнопки &quot;Сделать всё хорошо&quot;</steps>
+										<expected>На поверхности кнопки &quot;Сделать всё хорошо&quot; надпись &quot;Сделать всё хорошо&quot; чёрного цвета</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C99</id>
+				<title>Проверить изменение курсора при наведении на кнопку &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Навести курсор на кнопку &quot;Сделать всё хорошо&quot;</steps>
+										<expected>При наведении курсора на кнопку &quot;Сделать всё хорошо&quot; он меняется со &quot;стрелочки&quot; на &quot;пойнтер&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C100</id>
+				<title>Проверить изменение курсора при отведении его с кнопки &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Навести курсор на кнопку &quot;Сделать всё хорошо&quot; и отвести его произвольно на свободное поле страницы</steps>
+										<expected>При отведении курсора с кнопки &quot;Сделать всё хорошо&quot; он меняется с &quot;пойнтер&quot; на &quot;стрелочку&quot;</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Функционал нажатия кнопки &quot;Сделать всё хорошо&quot;</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C101</id>
+				<title>Проверить изменение курсора при наведении на кнопку &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Навести курсор на кнопку &quot;Сделать всё хорошо&quot;</steps>
+										<expected>При наведении курсора на кнопку &quot;Сделать всё хорошо&quot; он меняется со &quot;стрелочки&quot; на &quot;пойнтер&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C102</id>
+				<title>Проверить изменение курсора при отведении его с кнопки &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Навести курсор на кнопку &quot;Сделать всё хорошо&quot; и отвести его произвольно на поле страницы</steps>
+										<expected>При отведении курсора с кнопки &quot;Сделать всё хорошо&quot; он меняется с &quot;пойнтер&quot; на &quot;стрелочку&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C103</id>
+				<title>Проверить проваливание кнопки &quot;Сделать всё хорошо&quot; при нажатии на неё</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Нажать на кнопку &quot;Сделать всё хорошо&quot;</steps>
+										<expected>При нажатии на кнопку &quot;Сделать всё хорошо&quot; она проваливается как клавиша</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C104</id>
+				<title>Проверить возвращение кнопки &quot;Сделать всё хорошо&quot; в исходное состояние при нажатии на неё</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Нажать на кнопку &quot;Сделать всё хорошо&quot;</steps>
+										<expected>При нажатии на кнопку &quot;Сделать всё хорошо&quot; она проваливается как клавиша и возвращается в исходное состояние</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C105</id>
+				<title>Проверить изменение экрана при нажатии на кнопку &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Нажать на кнопку &quot;Сделать всё хорошо&quot;</steps>
+										<expected>При нажатии на кнопку &quot;Сделать всё хорошо&quot; страница переходит в фоновый режим</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C106</id>
+				<title>Проверить отображение всплывающего окна при нажатии на кнопку &quot;Сделать всё хорошо&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Нажать на кнопку &quot;Сделать всё хорошо&quot;</steps>
+										<expected>При нажатии на кнопку &quot;Сделать всё хорошо&quot; отображается всплывающее окно</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>VK\сохранить функциональность</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C107</id>
+				<title>Проверка функциональности кнопки &quot;VK сохранить&quot; на сайте button.dekel.ru</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate>300</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Войти на сайт button.dekel.ru
+2) Кликнуть кнопку Vk Сохранить слева на футере</steps>
+										<expected>Откроется форма Вконтакте для расшаривания сайта button.dekel.ru</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C108</id>
+				<title>Проверка расположения кнопки &quot;VK сохранить&quot; в поле сайта button.dekel.ru</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Войти на сайт button.dekel.ru
+2) Проверить расположение кнопки VK Сохранить в поле сайта</steps>
+										<expected>Кнопка VK Сохранить находится слева на футере главной страницы</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C109</id>
+				<title>Проверка фона кнопки &quot;VK сохранить&quot; на футере сайта button.dekel.ru</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>300</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Войти на сайт button.dekel.ru
+2) Проверить фон кнопки VK Сохранить</steps>
+										<expected>Кнопка VK Сохранить имеет синий фон</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C110</id>
+				<title>Проверка изменения состояния курсора при наведении на кнопку &quot;VK сохранить&quot; на футере сайта button.dekel.ru</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate>240</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Войти на сайт button.dekel.ru
+2) Навести курсор на кнопку &quot;VK сохранить&quot;</steps>
+										<expected>Кнопка VK &quot;Сохранить&quot; переходит в кликабельное состояние</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C111</id>
+				<title>Проверка появления образа ссылки кнопки справа в футере при наведении на кнопку &quot;VK сохранить&quot; на сайте button.dekel.ru</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate>240</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Войти на сайт button.dekel.ru
+2) Навести курсор на кнопку &quot;VK сохранить&quot;</steps>
+										<expected>Справа в футере появляется некликабельный образ ссылки на подстраницу &quot;VK сохранить&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C112</id>
+				<title>Проверка изменения состояния курсора при снятии с кнопки &quot;VK сохранить&quot; на футере сайта button.dekel.ru</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate>240</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Войти на сайт button.dekel.ru
+2) Навести и убрать курсор с кнопки &quot;VK сохранить&quot;</steps>
+										<expected>Кнопка VK &quot;Сохранить&quot; переходит в некликабельное состояние</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Всплывающее окно &quot;все сделано хорошо&quot;</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C113</id>
+				<title>Проверка появления всплывающего окна</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Открыть веб-браузер и перейти по адресу http://button.dekel.ru.
+2. Нажать на кнопку &quot;Сделать все хорошо&quot;.
+3. Убедиться, что всплывающее окно с сообщением &quot;Все сделано хорошо&quot; появляется на экране</steps>
+										<expected>Появляется окно &quot;Все сделано хорошо&quot; (https://prnt.sc/hiSEpULYxTTy)</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C114</id>
+				<title>Проверка титла всплывающего окна</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Открыть веб-браузер и перейти по адресу http://button.dekel.ru.
+2. Нажать на кнопку &quot;Сделать все хорошо&quot;.
+3. Проверить, что всплывающее окно содержит титл &quot;Все сделано хорошо&quot;.</steps>
+										<expected>Всплывающее окно содержит титл &quot;Все сделано хорошо&quot; (https://prnt.sc/VWY4wON4uLcX).</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C115</id>
+				<title>Проверка текста всплывающего окна</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Открыть веб-браузер и перейти по адресу http://button.dekel.ru.
+2. Нажать на кнопку &quot;Сделать все хорошо&quot;.
+3. Проверить, что всплывающее окно содержит текст &quot;Если всё хорошо не стало,
+то попробуйте отрегулировать свои настройки восприятия объективной реальности&quot;.</steps>
+										<expected>Всплывающее окно содержит текст &quot;Если всё хорошо не стало, то попробуйте отрегулировать свои настройки восприятия объективной реальности&quot;.
+(https://prnt.sc/pdhifYR_zsiw)</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C116</id>
+				<title>Проверка наличия кнопки &quot;ОК&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Открыть веб-браузер и перейти по адресу http://button.dekel.ru.
+2. Нажать на кнопку &quot;Сделать все хорошо&quot;.
+3. Проверить, что всплывающее окно содержит кнопку &quot;ОК&quot;. </steps>
+										<expected>Всплывающее окно содержит кнопку &quot;ОК&quot; (https://prnt.sc/R3qwE1tqtWU1).</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C117</id>
+				<title>Проверка кликабельности кнопки &quot;OK&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Открыть веб-браузер и перейти по адресу http://button.dekel.ru.
+2. Нажать на кнопку &quot;Сделать все хорошо&quot;.
+3. Проверить, что кнопка &quot;ОК&quot; кликабельна и выполняет свою функцию закрытия окна.</steps>
+										<expected>По нажатию на кнопку &quot;ОК&quot; окно закрывается.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C118</id>
+				<title>Проверка закрытия всплывающего окна</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds> </preconds>
+										<steps>1. Открыть веб-браузер и перейти по адресу http://button.dekel.ru.
+2. Нажать на кнопку &quot;Сделать все хорошо&quot;.
+3. Убедиться, что всплывающее окно с сообщением &quot;Все сделано хорошо&quot; остается на экране в течение определенного времени.
+4. Убедиться, что всплывающее окно не закрывается при нажатии вне области окна.</steps>
+										<expected>1. Окно закрывается только по нажатию на кнопку &quot;ОК&quot;.
+2. По нажатию вне области окна, окно не должно закрываться. 
+ </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C119</id>
+				<title>Проверка формы всплывающего окна</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Открыть веб-браузер и перейти по адресу http://button.dekel.ru.
+2. Нажать на кнопку &quot;Сделать все хорошо&quot;.
+3. Проверить, что всплывающее окно прямоугольной формы и имеет по углам закругление с радиусом Х.</steps>
+										<expected>Всплывающее окно имеет прямоугольную форму и закругление по углам с радиусом Х. </expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Функционал значок &quot;Information&quot;</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C120</id>
+				<title>Проверить Расположение кнопки &quot;Information&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>зпустить VPN</preconds>
+										<steps>1.Запустить VPN
+2.Прейти на сайт http://button.dekel.ru/
+
+</steps>
+										<expected>Кнопка информация расположена в футере по середине страницы 
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C121</id>
+				<title>Проверить форму значка</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1.Запустить VPN
+2.Прейти на сайт http://button.dekel.ru/
+</steps>
+										<expected>Значок имеет круглую форму с буквой &quot;I&quot; в середине  </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C122</id>
+				<title>Проверить цвет значка Информация</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>
+</preconds>
+										<steps>1.Запустить VPN
+2.Прейти на сайт http://button.dekel.ru/
+</steps>
+										<expected>Проверить что цвет значка серый </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C123</id>
+				<title>Проверить появления окна при нажатии</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1.Запустить VPN
+2.Прейти на сайт http://button.dekel.ru/
+3.Навести курсор на значок &quot;I&quot;</steps>
+										<expected>При на ведении курсора на значок информация появляется всплывающее окно  </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C124</id>
+				<title>Проверить форму всплывающего окна</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1.Запустить VPN
+2.Прейти на сайт http://button.dekel.ru/
+3.Навести курсор на значок Информация</steps>
+										<expected>При наведении курсора на значок информация появляется прямоугольное окно </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C125</id>
+				<title>Проверить наличие текста во всплывающем окне</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1.Запустить VPN
+2.Прейти на сайт http://button.dekel.ru/
+3.Навести курсор на значок информация 
+
+</steps>
+										<expected>При наведении курсора на значок информация появляется прямоугольное окно с текстом</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C126</id>
+				<title>Проверить текст во всплывающем окне</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1.Запустить VPN
+2.Прейти на сайт http://button.dekel.ru/
+3.навести курсор на значок информация </steps>
+										<expected>при наведении курсора на значок информация появляется текст &quot;Кнопка «Сделать всё хорошо» предназначена для регулярного улучшения жизни. Рекомендуется к использованию специалистам разных профессий, как в коммерческих, так и в личных целях.&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C127</id>
+				<title>Проверить цвет текста во всплывающем окне</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>60</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1.Запустить VPN
+2.Прейти на сайт http://button.dekel.ru/
+3.Навести курсор на значок информация</steps>
+										<expected>Текст в появившемся окне серого цвета </expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>

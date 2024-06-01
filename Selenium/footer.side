@@ -1,0 +1,790 @@
+{
+  "id": "23c9fd1f-9f1c-4e73-ab6b-fb1ec98eb9b4",
+  "version": "2.0",
+  "name": "test",
+  "url": "https://dumskaya.net",
+  "tests": [{
+    "id": "4730e96f-2a60-4a0b-ad4c-6a338d503e4d",
+    "name": "header",
+    "commands": [{
+      "id": "f83060d9-1612-4e95-aff4-a1490bc2ecad",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ac8edae-5c37-455d-82a5-20a0d6980a56",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.logocell img",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "3bbcfb31-9c75-4908-90fd-3405cba7e78f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.logocell img",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe4947b1-0404-4603-82d6-3d338b07e9f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logocell img",
+      "targets": [
+        ["css=.logocell img", "css:finder"],
+        ["xpath=//img[@alt='Думская - новости Одессы, анализ одесской политики. \nИнтересные новости в Одессе и аналитические статьи.']", "xpath:img"],
+        ["xpath=//div[@id='menuitems']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c642151-2227-4108-a8a5-e77ef2e41490",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Новини Одеси. Останні одеські новини та події в Одесі на \"Думська Новини\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a722e7e-be0b-41e6-b4df-2bebbb606b6e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Матеріали",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "0fde5cdc-8013-4e79-8789-b7fe8e800bfc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Матеріали",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2729b963-7646-46ff-821d-f9deeb6ddbaa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Матеріали",
+      "targets": [
+        ["linkText=Матеріали", "linkText"],
+        ["css=div:nth-child(1) > .menuitem", "css:finder"],
+        ["xpath=//a[contains(text(),'Матеріали')]", "xpath:link"],
+        ["xpath=//div[@id='menuitems']/div[2]/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/articles/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Матеріали')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62f06c3b-1bc6-413d-aeae-fc32271cc57c",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Статті про Одесу",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06ddf10f-badd-4e77-b1b3-778ed5970008",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Архів",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "694ae370-6a96-479f-80e7-6a535db1481a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Архів",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97008bd5-1323-4b85-b5a6-4b227c13cf39",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Архів",
+      "targets": [
+        ["linkText=Архів", "linkText"],
+        ["css=div:nth-child(2) > .menuitem", "css:finder"],
+        ["xpath=//a[contains(text(),'Архів')]", "xpath:link"],
+        ["xpath=//div[@id='menuitems']/div[2]/div/div[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/allnews/')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Архів')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fc46cfa-06eb-493b-8c1f-5b8a086cce93",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Архів публікацій",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bf87136-a06d-484f-8d9f-f5c97c5faf4b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Топ",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "d0afd7a3-710d-419f-b2b2-21af47c59ebe",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Топ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30ae5639-07b9-42e8-b586-313527cd4aac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Топ",
+      "targets": [
+        ["linkText=Топ", "linkText"],
+        ["css=div:nth-child(3) > .menuitem", "css:finder"],
+        ["xpath=//a[contains(text(),'Топ')]", "xpath:link"],
+        ["xpath=//div[@id='menuitems']/div[2]/div/div[2]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/topweek/')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Топ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68906183-8582-4c9d-aebd-68e39090cbdf",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5fe1d6b7-e6b4-4334-8d72-23850aa10c02",
+    "name": "search",
+    "commands": [{
+      "id": "e106dc46-76aa-459c-955b-d3edf4b6ade9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bccb9594-a394-445e-a711-d07eea52a270",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.logocell img",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e03a525-7325-4334-92c1-0fdbe10c219a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.logocell img",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "ee82fb39-c761-4d93-a20e-ca42a9d4ba9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logocell img",
+      "targets": [
+        ["css=.logocell img", "css:finder"],
+        ["xpath=//img[@alt='Думская - новости Одессы, анализ одесской политики. \nИнтересные новости в Одессе и аналитические статьи.']", "xpath:img"],
+        ["xpath=//div[@id='menuitems']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c38b7bdb-c7c8-4a78-ae5d-c5610540de7c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=first",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31f8b676-389b-4859-a778-d84ce3a9684e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=first",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "a6ea3c7d-08d7-4acb-8c82-da6374cb002f",
+      "comment": "",
+      "command": "click",
+      "target": "id=first",
+      "targets": [
+        ["id=first", "id"],
+        ["name=query", "name"],
+        ["css=#first", "css:finder"],
+        ["xpath=//input[@id='first']", "xpath:attributes"],
+        ["xpath=//div[@id='menuitems']/div[2]/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d69cb96-0696-4625-97d2-7821b6b8039b",
+      "comment": "",
+      "command": "type",
+      "target": "id=first",
+      "targets": [
+        ["id=first", "id"],
+        ["name=query", "name"],
+        ["css=#first", "css:finder"],
+        ["xpath=//input[@id='first']", "xpath:attributes"],
+        ["xpath=//div[@id='menuitems']/div[2]/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "море"
+    }, {
+      "id": "2e7c7751-450c-428c-9180-b799220637ad",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=first",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cd2caeb-e3e0-4b66-b846-d76262b6e177",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=first",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "e02def79-fc27-4028-8050-e19dba4a374b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=first",
+      "targets": [
+        ["id=first", "id"],
+        ["name=query", "name"],
+        ["css=#first", "css:finder"],
+        ["xpath=//input[@id='first']", "xpath:attributes"],
+        ["xpath=//div[@id='menuitems']/div[2]/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "bacfc12b-7d6f-45ca-973e-df8d3b78e2f3",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Поиск по сайту: «море»",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ad28544-2a85-4a1f-b018-1a1b21848e4e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.logocell img",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d39633db-f88b-4e42-a7b2-ba67ee26f491",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.logocell img",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "a40bfd6c-2a20-4df1-942f-22169b184758",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logocell img",
+      "targets": [
+        ["css=.logocell img", "css:finder"],
+        ["xpath=//img[@alt='Думская - новости Одессы, анализ одесской политики. \nИнтересные новости в Одессе и аналитические статьи.']", "xpath:img"],
+        ["xpath=//div[@id='menuitems']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2788afa4-abdb-4716-ba85-e50daf3b4f6d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=first",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36f29825-c674-468e-a0c1-7526a0ca7fcc",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=first",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "cbdf2d00-1a45-4c98-8a86-d7eedba0f79a",
+      "comment": "",
+      "command": "click",
+      "target": "id=first",
+      "targets": [
+        ["id=first", "id"],
+        ["name=query", "name"],
+        ["css=#first", "css:finder"],
+        ["xpath=//input[@id='first']", "xpath:attributes"],
+        ["xpath=//div[@id='menuitems']/div[2]/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dc724a1-b67c-4200-b4e1-c45adfc248ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=first",
+      "targets": [
+        ["id=first", "id"],
+        ["name=query", "name"],
+        ["css=#first", "css:finder"],
+        ["xpath=//input[@id='first']", "xpath:attributes"],
+        ["xpath=//div[@id='menuitems']/div[2]/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "котики"
+    }, {
+      "id": "bc5999f9-be30-4df2-8242-8bf975140a97",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=first",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccc25cc4-f776-4507-a620-89b59617541a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=first",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "692323a2-b1b6-451b-8ea2-cf2569dac4d4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=first",
+      "targets": [
+        ["id=first", "id"],
+        ["name=query", "name"],
+        ["css=#first", "css:finder"],
+        ["xpath=//input[@id='first']", "xpath:attributes"],
+        ["xpath=//div[@id='menuitems']/div[2]/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f4db959a-23a6-40b4-ba30-bde3432ab069",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Поиск по сайту: «котики»",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9799257d-e98a-4e98-a085-de7c3699f935",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.logocell img",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8001d1d-8198-4678-927d-98dd46b7fb4b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.logocell img",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "0eb8bbee-161b-41d8-8880-2eb8128c02d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logocell img",
+      "targets": [
+        ["css=.logocell img", "css:finder"],
+        ["xpath=//img[@alt='Думская - новости Одессы, анализ одесской политики. \nИнтересные новости в Одессе и аналитические статьи.']", "xpath:img"],
+        ["xpath=//div[@id='menuitems']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af3feaa9-f3b8-49c6-b77a-8922b7383229",
+      "comment": "",
+      "command": "click",
+      "target": "id=first",
+      "targets": [
+        ["id=first", "id"],
+        ["name=query", "name"],
+        ["css=#first", "css:finder"],
+        ["xpath=//input[@id='first']", "xpath:attributes"],
+        ["xpath=//div[@id='menuitems']/div[2]/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "420e15f7-4f1b-4594-ba6e-15eb3935a7b7",
+      "comment": "",
+      "command": "type",
+      "target": "id=first",
+      "targets": [
+        ["id=first", "id"],
+        ["name=query", "name"],
+        ["css=#first", "css:finder"],
+        ["xpath=//input[@id='first']", "xpath:attributes"],
+        ["xpath=//div[@id='menuitems']/div[2]/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "собаки"
+    }, {
+      "id": "21b6701a-ed75-4bb2-a917-02f66c01e3c9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=first",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e77f4da9-32b7-4444-93ee-ad2736fdf831",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=first",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "5237e0ed-fd90-4036-8b34-60000fc5cbdc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.searchgo",
+      "targets": [
+        ["css=.searchgo", "css:finder"],
+        ["xpath=//input[@type='image']", "xpath:attributes"],
+        ["xpath=//div[@id='menuitems']/div[2]/div/div[3]/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "565eab84-9182-42ca-8a0d-52776b31aee4",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Поиск по сайту: «собаки»",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c154dd3e-092e-492b-bb40-cb43beca2888",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.logocell img",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ca79ec1-d71a-4109-ab3a-223c75b5dbf9",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.logocell img",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "e3e7106b-07df-40f6-b927-19e1b104ca08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logocell img",
+      "targets": [
+        ["css=.logocell img", "css:finder"],
+        ["xpath=//img[@alt='Думская - новости Одессы, анализ одесской политики. \nИнтересные новости в Одессе и аналитические статьи.']", "xpath:img"],
+        ["xpath=//div[@id='menuitems']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0938b793-1e6c-4ce9-9cb8-bca5917e687e",
+    "name": "footer",
+    "commands": [{
+      "id": "edb1588c-80be-4443-862b-4e1672cfbeb8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06b6a484-d2d1-4c62-87e5-46ade5628e86",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a09549bd-cedb-46bd-834d-5769bd928a0e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Реклама",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "ecac0ae3-53b6-4f51-866c-403efa565f02",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Реклама",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0bc81953-a940-4e19-89e1-7cff07effb54",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Реклама",
+      "targets": [
+        ["linkText=Реклама", "linkText"],
+        ["css=.leftbot > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Реклама')]", "xpath:link"],
+        ["xpath=//table[@id='bot']/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/site/Reklama')]", "xpath:href"],
+        ["xpath=//footer/table/tbody/tr/td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Реклама')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51d622de-12b2-4264-b1c5-5cd3d13dc12e",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Реклама на нашем сайте",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63aa08c4-0791-4a03-809d-fc036705fbbf",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Контакти, автори, редакція",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "0512b72f-642b-4f71-81d4-a3a60c0d8dc8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Контакти, автори, редакція",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5cd7041-c3ba-4f39-b34d-329d5db497ce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Контакти, автори, редакція",
+      "targets": [
+        ["linkText=Контакти, автори, редакція", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Контакти, автори, редакція')]", "xpath:link"],
+        ["xpath=//table[@id='bot']/tbody/tr/td/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/site/Adres')]", "xpath:href"],
+        ["xpath=//td/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Контакти, автори, редакція')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87415474-f9b2-4815-87d5-346d4913051e",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Контакти, автори, про редакцію",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7459bf5c-0f53-4061-94f0-35fecb1b474a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Вибори в Одесі 2009, 2010",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "cb32b31a-ddb4-4d76-98b8-163024a5bb58",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Вибори в Одесі 2009, 2010",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f12e749-2e95-4e9e-8e1f-cce33afa8144",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Вибори в Одесі 2009, 2010",
+      "targets": [
+        ["linkText=Вибори в Одесі 2009, 2010", "linkText"],
+        ["css=a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Вибори в Одесі 2009, 2010')]", "xpath:link"],
+        ["xpath=//table[@id='bot']/tbody/tr/td/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/electarchive/')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Вибори в Одесі 2009, 2010')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "331c7adf-fa7c-4bd4-9a13-82f5b831676e",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3745b04c-879b-4d82-ace5-9c7c56b5efdb",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=2012",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "64552d2c-a785-44b7-bbd3-f755ecd3566b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=2012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc9799cb-caf0-4b1c-954e-726c2dd4341b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2012",
+      "targets": [
+        ["linkText=2012", "linkText"],
+        ["css=.leftbot > a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'2012')]", "xpath:link"],
+        ["xpath=//table[@id='bot']/tbody/tr/td/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/2012/')]", "xpath:href"],
+        ["xpath=//td/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'2012')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00b919d3-e59b-4160-9cd9-1fa7aed4051a",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Выборы в Верховную Раду 2012. Округи и кандидаты от Одессы и Одесской области. Онлайн голосование. Думская.net",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c61a7fa-7968-4248-9952-4b96747692b0",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=2015",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "6d018f17-0a5d-442a-892f-6fd884c35624",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=2015",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7002db82-3643-4941-89b1-0976fa2faf29",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2015",
+      "targets": [
+        ["linkText=2015", "linkText"],
+        ["css=.leftbot > a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'2015')]", "xpath:link"],
+        ["xpath=//table[@id='bot']/tbody/tr/td/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/2015/')]", "xpath:href"],
+        ["xpath=//td/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'2015')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e158848-efbc-47f8-9802-367625e7c5d3",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Выборы мэра Одессы, горсовета и облсовета 2015 - все кандидаты и округа",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f086c19-9d98-4c75-ae24-886dcaa2fdd4",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=2019",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "af1a6add-51b9-4e9d-8d15-d13ce92f9164",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=2019",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6affb65c-60ad-426d-8d2c-d989cf5adbae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2019",
+      "targets": [
+        ["linkText=2019", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'2019')]", "xpath:link"],
+        ["xpath=//table[@id='bot']/tbody/tr/td/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/2019/')]", "xpath:href"],
+        ["xpath=//footer/table/tbody/tr/td/a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'2019')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c391062-5c61-4710-91dd-e7048ee5c7a1",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Выборы в Верховную Раду 2019. Округи и кандидаты от Одессы и Одесской области",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b203dea1-b732-41c4-a287-55b99c01aeab",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=Довідник",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "478db039-4df7-44f1-b4c6-6d976425310e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Довідник",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04a6134f-94f8-4dbb-aec6-8e5b463d34c1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Довідник",
+      "targets": [
+        ["linkText=Довідник", "linkText"],
+        ["css=.leftbot > a:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Довідник')]", "xpath:link"],
+        ["xpath=//table[@id='bot']/tbody/tr/td/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wikipages/spravochnik/')]", "xpath:href"],
+        ["xpath=//td/a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Довідник')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "487a10e2-8653-47e8-bf17-954541af402b",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Справочник. Справочник Одессы.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4897fbfc-8195-495c-ba65-542526380c15",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Мобільна версія",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9cd49df-03c8-4ccc-8a4b-6bd30d591467",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Надіслати новину через Telegram",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5b1dd33-3cd7-47b9-adb4-84e421118978",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Наш Patreon",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "50b4038c-1a64-467d-bbb7-9308acfcb640",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4730e96f-2a60-4a0b-ad4c-6a338d503e4d"]
+  }],
+  "urls": ["https://dumskaya.net/"],
+  "plugins": []
+}

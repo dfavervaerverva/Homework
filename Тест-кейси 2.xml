@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+<testcase internalid="4149" name="Перевірити відміну за строком дії">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[11]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Перевірити відміну&nbsp;броні через час</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Пасажир бронює квиток, але через якийсь час бронь зникає</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Зайти на сайт Укрзалізниці</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Сайт Укрзалізниці відкрито</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Забронювати квиток на потяг Одеса-Київ</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Квиток на потяг заброньовано</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Зачекати деякий час, після чого бронь зникає</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Через деякий час бронь зникає</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4154" name="Перевірити відміну бронювання вручну">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[12]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Перевірити відміну бронювання на сайті Укрзалізниці вручну</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Пасажир заходить на сайт Укрзалізниці, бронює квиток, але відміняє його вручну</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Зайти на сайт Укрзалізниці</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Сайт Укрзалізниці відкрито</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Забронювати квиток на потяг Одеса-Київ</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Квиток на потяг заброньовано</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Натиснути на кнопку &quot;Відмінити бронювання&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Бронь скасовано вручну</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4159" name="Перевірити відміну оплати квитка">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[13]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Перевірити відміну оплати квитка</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Пасажир заходить на сайт Укрзалізниці, бронює квиток, сплачує його, а потім натискає на кнопку &quot;Повернути кошти&quot;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Зайти на сайт Укрзалізниці</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Сайт Укрзалізниці відкрито</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Забронювати квиток на потяг Одеса-Київ</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Квиток на потяг заброньовано</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Оплатити квиток</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Квиток оплачено</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Натиснути на кнопку &quot;Повернути кошти&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Кошти повернено</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4165" name="Перевірити відміну оплати після отримання квитка">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[14]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Перевірити відміну оплати після отримання квитка</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Пасажир купує квиток, роздруковує його, а потім повертає на касу вокзалу</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Зайти на сайт Укрзалізниці</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Сайт відкрито</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Забронювати квиток на потяг Одеса-Київ</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Квиток заброньовано</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Оплатити квиток</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Квиток сплачено</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Роздрукувати квиток</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Квиток роздруковано</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Повернути квиток на касу вокзалу</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Квиток повернено</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="4172" name="Перевірити успішну купівлю квитка і подальшу подорож">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[15]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Перевірити успішну купівлю квитка і подальшу подорож</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Пасажир успішно купує квиток і їде у місце призначення</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Зайти на сайт Укрзалізниці</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Сайт відкрито</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Забронювати квиток на потяг Одеса-Київ</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Квиток заброньовано</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Оплатити квиток</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Квиток сплачено</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Роздрукувати квиток</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Квиток роздруковано</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Прийти на вокзал і спокійно сісти на потяг</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Подорож здійснено</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>
